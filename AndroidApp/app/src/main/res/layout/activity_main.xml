@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="352dp"
+        android:layout_height="677dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/accel_text"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            android:translationX="130dp"
+            android:translationY="100dp" />
+
+        <TextView
+            android:id="@+id/gyro_text"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Gyro"
+            android:translationX="130dp"
+            android:translationY="150dp" />
+
+        <Spinner
+            android:id="@+id/activity_spinner"
+            android:layout_width="203dp"
+            android:layout_height="48dp"
+            android:spinnerMode="dropdown"
+            android:translationX="70dp"
+            android:translationY="250dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/start_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="startTracking"
+            android:text="Start"
+            android:translationX="130dp"
+            android:translationY="350dp" />
+
+        <Button
+            android:id="@+id/next_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="stopTracking"
+            android:text="Next"
+            android:translationX="130dp"
+            android:translationY="350dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

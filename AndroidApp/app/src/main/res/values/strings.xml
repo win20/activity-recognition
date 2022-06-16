@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GetUserData</string>
+
+    <string-array name="activities">
+        <item>Resting</item>
+        <item>Fast Walking</item>
+        <item>Push ups</item>
+        <item>Jogging</item>
+        <item>Intense Exercise</item>
+    </string-array>
+</resources>
