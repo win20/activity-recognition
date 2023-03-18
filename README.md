@@ -1,1 +1,1 @@
-# Activity Recognition and heart rate measurement
+# Activity recognition and heart rate measurement
